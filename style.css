@@ -1,0 +1,63 @@
+h1 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 45px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+body {
+  background-color:#ff6961;
+}
+
+h2 {
+  color:white;
+}
+
+nav ul li {
+  list-style:none;
+  display:inline;
+  padding: 0px 150px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration:none;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size:30px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #ffcccc;
+  text-align: center;
+}
+
+ul {
+  padding:5px;
+}
+
+button {
+  width: 300px;
+  display: inline-block;
+  height: 300px;
+  margin:10px;
+}
+
+.buttonpics {
+  width:20%;
+  height:20%;
+}
+
+#submit {
+  height:8px;
+  weight:10px;
+}
+
+p {
+  font-family: 'Archivo Narrow', sans-serif;
+  color:white;
+}

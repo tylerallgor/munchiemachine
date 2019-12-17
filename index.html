@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Munchie Machine</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <center><h1>Munchie Machine</h1></center>
+    <nav>
+      <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Links</a></li>
+      </ul>
+    </nav>
+    <br>
+    <center>
+    <h2>How Much Time Do You Have?</h2>
+    <button class="time" type="button" onclick="setTime('fast food')"><img class="buttonpics" src=bowl.png><br><br>Grab-n'-Go</button>
+    <button class="time" type="button" onclick="setTime('takes minutes')"><img class="buttonpics" src=dish.png><br><br>A Few Minutes</button>
+    <br>
+    <button class="time" type="button" onclick="setTime('takes an hour')"><img class="buttonpics" src=tray.png><br><br>An Hour</button>
+    <button class="time" type="button" onclick="setTime('takes very long')"><img class="buttonpics" src=table.png><br><br>No Time Constraints</button>
+    </center>
+    <br>
+    <center>
+    <h2>What Flavor are You Craving?</h2>
+    <button class="time" type="button" onclick="setFlavor('spicy')"><img class="buttonpics" src=chilli.png><br><br>Spicy</button>
+    <button class="time" type="button" onclick="setFlavor('sweet')"><img class="buttonpics" src=ice-cream.png><br><br>Sweet</button>
+    <br>
+    <button class="time" type="button" onclick="setFlavor('savory')"><img class="buttonpics" src=meat.png><br><br>Savory</button>
+    <button class="time" type="button" onclick="setFlavor('salty')"><img class="buttonpics" src=salt.png><br><br>Salty</button>
+    </center>
+    <br>
+    <center>
+    <h2>Do You Have Any Dietary Restrictions?</h2>
+    <button class="time" type="button" onclick="setDiet('no restrictions')"><img class="buttonpics" src=no-stopping.png><br><br>No Restrictions</button>
+    <button class="time" type="button" onclick="setDiet('vegan')"><img class="buttonpics" src=plant.png><br><br>Vegan</button>
+    <br>
+    <button class="time" type="button" onclick="setDiet('dairy')"><img class="buttonpics" src=cheese.png><br><br>No Dairy</button>
+    <button class="time" type="button" onclick="setDiet('nuts')"><img class="buttonpics" src=cashew.png><br><br>No Nuts</button>
+    </center>
+    <br>
+    <center>
+    <h2>What is the Occasion for the Meal?
+    <br>
+    <button class="time" type="button" onclick="setOccasion('date')"><img class="buttonpics" src=tea-party.png><br><br>Date</button>
+    <button class="time" type="button" onclick="setOccasion('casual')"><img class="buttonpics" src=burguer.png><br><br>Casual Meal</button>
+    <br>
+    <button class="time" type="button" onclick="setOccasion('business')"><img class="buttonpics" src=coffee.png><br><br>Business Meal</button>
+    <button class="time" type="button" onclick="setOccasion('family')"><img class="buttonpics" src=family.png><br><br>Family Meal</button>
+    </center>
+    <br>
+    <center>
+    <h2>Are Your Choices Correct?</h2>
+    <button id="submit" type="button" onclick="submit()">Submit</button>
+    </center>
+    <center><p id="answer">You have not answered all of the questions or hit submit.</p>
+    <script src="quizjs.js"></script>
+  </body>
+</html>
